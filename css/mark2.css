@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	margin: 0 auto;
+	display: flex;
+	min-height: calc(100vh - 101px);
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+.first, .sec, .third, .fourth, .fifth{
+	border:2px solid #000;
+}
+div.first{
+width: 250px;
+height: 250px;
+/*background-color: #aaa;*/
+position: relative;
+transition: border-radius .3s 1.2s;
+
+}
+div.sec{
+width: 180px;
+height: 180px;
+position:absolute;
+margin: 30px;
+transition: border-radius .3s .9s;
+}
+div.third{
+width: 150px;
+height: 150px;
+position:absolute;
+margin: 12px;
+transition: border-radius .3s .6s;
+}
+div.fourth{
+width: 100px;
+height: 100px;
+position:absolute;
+margin: 23px;
+transition: border-radius .3s .3s;
+}
+div.fifth{
+width: 50px;
+height: 50px;
+position:absolute;
+margin: 23px;
+transition: border-radius .3s;
+}
+div.first:hover{
+	transition: border-radius .3s;
+	border-radius: 50%;
+}
+div.first:hover div.sec{
+	transition: border-radius .3s .3s;
+	border-radius: 50%;
+}
+div.first:hover div.third{
+	transition: border-radius .3s .6s;
+	border-radius: 50%;
+}
+div.first:hover div.fourth{
+	transition: border-radius .3s .9s;
+	border-radius: 50%;
+}
+div.first:hover div.fifth{
+	transition: border-radius .3s 1.2s;
+	border-radius: 50%;
+}

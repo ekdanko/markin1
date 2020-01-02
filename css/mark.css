@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+margin:0 auto;
+}
+
+.r1, .r2, .r3, .r4, .r5, .r6, .r7, .r8, .r9{
+	background-color: #C414DC;
+width: 100px;
+height: 100px;
+margin: 20px;
+}
+li.r2{
+border-radius: 10%;
+}
+li.r3{
+border-radius: 15%;
+}
+li.r4{
+border-radius: 20%;
+}
+li.r5{
+border-radius: 25%;
+}
+li.r6{
+border-radius: 30%;
+}
+li.r7{
+border-radius: 35%;
+}
+li.r8{
+border-radius: 40%;
+}
+li.r9{
+border-radius: 45%;
+}
+li.r10{
+border-radius: 50%;
+}
+

@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	margin: 0 auto;
+	display: flex;
+	min-height: calc(100vh - 101px);
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+
+.f1, .f2, .f3, .f4, .f5{
+	
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #000;
+}
+
+.f1{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	transition: border-color .3s 1.2s;
+}
+.f2{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	transition: border-color .3s .9s;
+}
+
+.f3{
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	transition: border-color .3s .6s;
+}
+
+.f4{
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	transition: border-color .3s .3s;
+}
+
+.f5{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	transition: border-color .3s;
+}
+
+
+.f1:hover{
+	transition: border-color .3s;
+	border-color: firebrick;
+}
+
+.f1:hover .f2{
+	border-color: #9b111e;
+	transition: border-color .3s .3s;
+}
+
+.f1:hover .f3{
+	border-color: #2E8B57;
+	transition: border-color .3s .6s;
+}
+
+.f1:hover .f4{
+	border-color: #FF8C00;
+	transition: border-color .3s .9s;
+}
+
+.f1:hover .f5{
+	border-color: #4682B4;
+
+	transition: border-color .3s 1.2s;
+}
